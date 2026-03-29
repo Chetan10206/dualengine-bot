@@ -1,0 +1,19 @@
+# ─────────────────────────────────────────────────────────────────────────
+#  Fyers FVG Bot  —  Dependencies
+#  Install: pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────────────────
+
+# ── Fyers API ─────────────────────────────────────────────────────────────
+fyers-apiv3>=3.0.0          # Fyers REST + WebSocket SDK
+
+# ── Data ──────────────────────────────────────────────────────────────────
+pandas>=2.1.0
+numpy>=1.26.0
+pyarrow>=14.0.0             # Parquet cache (fast local storage)
+
+# ── Config / env ──────────────────────────────────────────────────────────
+python-dotenv>=1.0.0        # loads .env automatically
+
+# ── Utilities ─────────────────────────────────────────────────────────────
+requests>=2.31.0
+tzdata>=2024.1              # IANA timezone (zoneinfo / IST support)

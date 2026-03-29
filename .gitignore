@@ -1,0 +1,9 @@
+.env
+.fyers_token
+__pycache__/
+*.py[cod]
+results/cache/
+logs/
+venv/
+.venv/
+.DS_Store
